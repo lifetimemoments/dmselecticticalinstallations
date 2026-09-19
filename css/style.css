@@ -383,6 +383,8 @@ a.contact__card:hover{border-color:var(--lime);transform:translateX(6px)}
 .footer__grid a,.footer__grid p{color:var(--ink-dim);font-size:14.5px;transition:color .3s}
 .footer__grid a:hover{color:var(--ink)}
 .footer__base{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;padding-top:26px;color:var(--mute);font-size:13px}
+.footer__credit{color:var(--mute);font-size:12px;letter-spacing:.02em;transition:color .3s}
+.footer__credit:hover{color:var(--lime)}
 
 /* ============ LIGHTBOX ============ */
 .lightbox{position:fixed;inset:0;z-index:9950;background:rgba(15,17,13,.94);backdrop-filter:blur(10px);display:grid;place-items:center;opacity:0;visibility:hidden;transition:opacity .4s,visibility 0s .4s}
