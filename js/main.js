@@ -1,5 +1,5 @@
 /* ============================================================
-   DMH ELECTRICAL INSTALLATIONS — interactions
+   DMH ELECTRICAL INSTALLATIONS - interactions
    ============================================================ */
 (() => {
   'use strict';
@@ -33,7 +33,7 @@
     else el.scrollIntoView({ behavior: 'smooth' });
   };
 
-  /* scroll lock helpers — keep native + lenis in sync */
+  /* scroll lock helpers - keep native + lenis in sync */
   const lockScroll = () => {
     document.body.style.overflow = 'hidden';
     if (lenis) lenis.stop();
@@ -311,7 +311,7 @@
   document.getElementById('quoteForm').addEventListener('submit', e => {
     e.preventDefault();
     const f = new FormData(e.target);
-    const subject = encodeURIComponent(`Free quote request — ${f.get('name') || 'Website enquiry'}`);
+    const subject = encodeURIComponent(`Free quote request - ${f.get('name') || 'Website enquiry'}`);
     const body = encodeURIComponent(
       `Name: ${f.get('name') || ''}\nPhone: ${f.get('phone') || ''}\nEmail: ${f.get('email') || ''}\nAddress: ${f.get('address') || ''}\n\nJob details:\n${f.get('message') || ''}`
     );
