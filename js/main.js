@@ -284,7 +284,7 @@
     const img = items[lbIndex].querySelector('img');
     lbImg.src = img.src;
     lbImg.alt = img.alt;
-    lbCap.textContent = items[lbIndex].querySelector('figcaption').textContent;
+    lbCap.innerHTML = items[lbIndex].querySelector('figcaption').innerHTML;
     lb.classList.add('is-open');
     lockScroll();
   };
